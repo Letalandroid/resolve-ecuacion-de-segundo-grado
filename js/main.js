@@ -8,5 +8,7 @@ let resolver = function() {
     let x2 = (-b - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / 2 * a;
 
     alert("El primer valor es: " + x1 + "\nEl segundo valor es: " + x2);
+    
+    location.reload();
 
 }
